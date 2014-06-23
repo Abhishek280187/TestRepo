@@ -36,7 +36,7 @@ public class TestClass {
 
 
 		//access via Iterator
-		Iterator iterator = listA.iterator();
+		Iterator<String> iterator = listA.iterator();
 		while(iterator.hasNext()){
 		  String element = (String) iterator.next();
 		  System.out.println(element + "\n");
